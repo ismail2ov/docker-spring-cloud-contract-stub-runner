@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: stub-runner
+
+server:
+  port: 8750
+
+info:
+  artifactId: "@project.artifactId@"
+  description: "@project.description@"
+  version: "@project.version@"
+
+stubrunner:
+  http-server-stub-configurer: "com.github.ismail2ov.stubrunner.configuration.WireMockConfigurer"
